@@ -1,0 +1,56 @@
+body{
+    background-color: bisque;
+}
+.input{
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 8px;
+    border-style: none;
+    text-align: right;
+    margin: 4px;
+    width: 200px;
+    color: blue;
+}
+.select{
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 8px;
+    border-style: none;
+    text-align: right;
+    margin: 4px;
+    width: 208px;
+    color: blue;
+}
+.button{
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 8px;
+    border-style: none;
+    margin: 4px;
+    width: 150px;
+    color: blue;
+}
+.label{
+    margin: 4px;
+    width: 150px;
+    padding: 5px;
+    text-align: right;
+    color: blue;
+}
+.titulo{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    color: red;
+    background-color: darkgray;
+    border-radius: 15px;
+}
+.elementoMenu{
+    color: brown;
+}
+.elementoMenu:hover{
+    background-color: antiquewhite;
+}
+.barra{
+    background-color: burlywood;
+}
