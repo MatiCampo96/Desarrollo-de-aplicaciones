@@ -62,10 +62,10 @@
         <input type="text" name="buscarApellido">
         <input type="submit" value="Buscar">
     </form>
-
+    <div class="Tabla1">
         <%@include file="jsp/AlumnosTable.jsp" %>
         <%@include file="jsp/AlumnosDelete.jsp" %>
-
+    </div>
     
     </body>
     </html>

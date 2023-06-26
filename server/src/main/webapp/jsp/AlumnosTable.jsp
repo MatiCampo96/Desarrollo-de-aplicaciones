@@ -8,9 +8,10 @@
             "SELECT * FROM alumnos WHERE apellido LIKE '%" + buscarApellido + "%'")) {
 
         out.println("<table border='1'>");
-        out.println("<tr><th>Id</th><th>Nombre</th><th>Apellido</th><th>Edad</th><th>idCurso</th><th>Eliminar</th></tr>");
+        out.println("<tr><th>Id</th><th>Nombre</th><th>Apellido</th><th>Edad</th><th>idCurso</th><th>Titulo</th><th>Profesor</th><th>Dia</th><th>Turno</th><th>Eliminar</th></tr>");
 
         while (rs2.next()) {
+            
             int alumnoId = rs2.getInt("id");
             String nombre = rs2.getString("nombre");
             String apellido = rs2.getString("apellido");
@@ -23,6 +24,11 @@
             out.println("<td>" + apellido + "</td>");
             out.println("<td>" + edad + "</td>");
             out.println("<td>" + idCurso + "</td>");
+            out.println("<td>" + "Titulo" + "</td>");
+            out.println("<td>" + "Profesor" + "</td>");
+            out.println("<td>" + "Dia" + "</td>");
+            out.println("<td>" + "Turno" + "</td>");
+            
             out.println("<td>");
             out.println("<form method='post' >");
             out.println("<input type='hidden' name='eliminar' value='" + alumnoId + "'>");

@@ -67,9 +67,10 @@
         <input type="submit" value="Buscar">
     </form>
 
+    <div class="Tabla1">
     <%@include file="jsp/CursosTable.jsp" %>   
     <%@include file="jsp/CursosDelete.jsp" %>   
-
+    </div>
 
 </body>
 </html>
